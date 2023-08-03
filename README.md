@@ -3,12 +3,13 @@ This is a demo script for client
 
 #install
 - npm init
-- npm install cypress
+- npm init wdio
+- npm install
 
 #run script 
-npx cypress run -- headless mode
-npx cypress open -- headed mode
+npx wdio
 
 # set-up server locally
 - Root of the folder open terminal
+- install local server by running command: npm install -g http-server then run
 - run command:  http-server -p 8000
