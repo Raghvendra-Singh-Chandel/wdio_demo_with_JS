@@ -55,7 +55,7 @@ exports.config = {
             browserName: 'chrome',
             'goog:chromeOptions': { 'args': ['--disable-gpu'] }
         }
-    ]
+    ],
     
 
     //
